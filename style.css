@@ -1,45 +1,79 @@
 	</body></html>body {
-	    font-family: 'Roboto Slab', serif;
-	    margin: 0;
+		font-family: 'Roboto Slab', serif;
+		margin: 0;
+	}
+
+	h2 {
+
+		color: darkcyan;
+
 	}
 
 	h1 {
-	    font-size: 30px;
-	    color: darkcyan;
+		font-size: 40px;
+		color: brown;
 	}
 
 	.blog {
-	    color: rgb(192, 32, 32);
+		color: rgb(192, 32, 32);
 	}
 
-	section {
-	    display: flex;
-	    margin-bottom: 100px;
+	.flexible-container {
+		display: flex;
+		margin-bottom: 100px;
 	}
 
 	.half-width {
-	    width: 50%;
-	    padding-left: 10%;
+		width: 50%;
+		padding-left: 10%;
 	}
 
 	.half-width image {
-	    width: 80%;
+		width: 80%;
 	}
 
 	.link-button {
-	    text-decoration: none;
-	    background-color: tomato;
-	    color: rgb(0, 53, 50);
-	    font-weight: 700;
-	    padding: 10px 20px;
-	    border-radius: 5px;
+		text-decoration: none;
+		background-color: tomato;
+		color: rgb(0, 53, 50);
+		font-weight: 700;
+		padding: 10px 20px;
+
 	}
 
 	.top-bannar {
-	    background-image: url(images/top-banner.png);
-	    background-repeat: no-repeat;
+		background-image: url(images/top-banner.png);
+		background-repeat: no-repeat;
 	}
 
 	.dream-big {
-	    background-image: url(images/dream-bg.png);
+		background-image: url(images/dream-bg.png);
+	}
+
+	.Exprience-area {
+		background-image: url(images/exp-bg.png);
+		background-repeat: no-repeat;
+		background-position: left;
+	}
+
+	.Exprience-item {
+		width: 40%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-left: 2%;
+		box-shadow: 10px 10px 40px gray;
+		border-radius: 10px;
+
+	}
+
+	#full-stack-developar {
+		border-left: 7px solid tomato;
+	}
+
+	#baby-web-developar {
+		border-left: 7px solid green;
+	}
+
+	footer {
+		text-align: center;
 	}
